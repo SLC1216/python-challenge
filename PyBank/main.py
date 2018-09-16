@@ -40,5 +40,6 @@ printToTerminal(finalhw1, finalHW2, finalhw3, finalhw4, finalhw5)
 
 #export results to text file (this did not seem to work)
 
-pathlib.Path("C:/Desktop/GWBC/.txt").write_text(str(eres + '\n' + line +'\n' + tot +'\n' + line +'\n' + khan +'\n' + corey +'\n' + li +'\n' + otoo +'\n' + line +'\n' + winner))
-  
+pathlib.Path("C:/Desktop/GWBC/.txt").write_text(finalhw1, finalHW2,)
+finalhw3, finalhw4, finalhw5
+#Angelo, I did understand this evenutally, took a lot of work which I know is to be expected but I feel as I need to say so. I could not get the final printout to the textfile, the printtoterminal though is near the top since I set those early. Thanks for your help today, please let me know if there is anything I can improve on, I know you've said there are many ways to obtain the same answer and I am sure this is just one of them. Thanks again! 
